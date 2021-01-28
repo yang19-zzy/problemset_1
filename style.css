@@ -18,15 +18,19 @@ textarea {
 
 section {
     display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 
 .item {
-    display: inline;;
+    display: inline;
+    text-align: center;
 }
 
 .item img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
+    margin: 15px;
 }
 
 footer {
@@ -35,4 +39,14 @@ footer {
     font-size: 13px;
     color: #aaa;
     margin-bottom: 0;
+}
+
+#notice {
+    margin: 15px 40px 30px 40px;
+    font-size: 23px;
+}
+
+#notice em {
+    font-size: 25px;
+
 }
