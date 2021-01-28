@@ -14,3 +14,7 @@ li {
 textarea {
     resize:both;
 }
+
+section {
+    display: flex;
+}
