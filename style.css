@@ -1,0 +1,16 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+    font: 30px;
+}
+
+textarea {
+    resize:both;
+}
